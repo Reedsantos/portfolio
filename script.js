@@ -22,4 +22,21 @@ const github = $('#github')
         '“We’re all just walking each other home.” -Ram Das',
         '“Treat everyone you meet like God in drag.” -Ram Das',
         '"Live as if you were to die tomorrow. Learn as if you were to live forever." -Gandhi',
-    ];
+    ]
+    
+    let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    inspire.text(randomQuote)
+
+    var randomNumber = Math.floor(Math.random() * classCycle.length);
+    var classToAdd = classCycle[randomNumber];
+
+    $('body').addClass(classToAdd);
+
+    setInterval(() => {
+        const now = moment();
+        const humanReadable = now.format('h:mm');
+
+        showTime.text(humanReadable);
+        
+    }, 1000);
+});
