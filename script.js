@@ -1,8 +1,13 @@
+const showTime = $('.showTime');
 const inspire = $('.inspire');
 const project = $('#project')
 const schedule = $('#schedule')
 const quiz = $('#quiz')
 const github = $('#github')
+const resume = $('#resume')
+
+
+$(document).ready(function () {
 
     var classCycle = ['img1', 'img2', 'img3', 'img4', 'img5', 'img6', 'img7', 'img8', 'img9', 'img10', 'img11', 'img12', 'img13', 'img14'];
 
@@ -23,7 +28,7 @@ const github = $('#github')
         '“Treat everyone you meet like God in drag.” -Ram Das',
         '"Live as if you were to die tomorrow. Learn as if you were to live forever." -Gandhi',
     ]
-    
+
     let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
     inspire.text(randomQuote)
 
