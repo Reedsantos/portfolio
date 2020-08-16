@@ -9,7 +9,7 @@ const resume = $('#resume')
 
 $(document).ready(function () {
 
-    var classCycle = ['img1', 'img2', 'img3', 'img4', 'img5', 'img6', 'img7', 'img8', 'img9', 'img10', 'img11', 'img12', 'img13', 'img14'];
+    var classCycle = ['img1', 'img2', 'img3', 'img4', 'img5'];
 
     var quotes = ['“It is important to expect nothing, to take every experience, including the negative ones, as merely steps on the path, and to proceed.” -Ram Das',
         '“Be kind, for everyone you meet is fighting a hard battle.” –Plato',
@@ -44,4 +44,21 @@ $(document).ready(function () {
         showTime.text(humanReadable);
         
     }, 1000);
+})
+
+$("#project").click(function(){
+    window.location = "https://hilbug.github.io/adults-pet-finder/";
+})
+
+$("#schedule").click(function(){
+    window.location = "https://reedsantos.github.io/Javascript-Schedule-App/";
+})
+$("#quiz").click(function(){
+    window.location = "https://reedsantos.github.io/Geo-quiz/";
+})
+$("#github").click(function(){
+    window.location = "https://github.com/Reedsantos/";
+})
+$("#resume").click(function(){
+    window.location = "./resume.pdf";
 });
