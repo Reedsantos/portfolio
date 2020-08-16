@@ -1,0 +1,64 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.greeting {
+    padding-bottom: 0px;
+}
+.showTime, .greeting, .inspire{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 45px;
+    animation: fadeIn;
+    animation-duration: 2s;
+    
+}
+
+.fi-xnsuxl-github, .fi-xnsuxl-left-align-solid, .fi-xnluxl-home, .fi-xnluxl-envelope
+{
+    font-size:40px;
+}
+.inspire {
+    font-size: 25px;
+    margin: 100px;
+}
+.showTime {
+    font-size: 100px;
+    padding-top: 30px;
+}
+.container {
+    margin-top: 70px;
+}
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+}
+.p-2{
+    font-size:15px;
+    text-align: center;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-duration: 2s;
+}
+
+#project, #schedule, #quiz, #github, #resume{
+    background-color: transparent;
+    border-color: transparent;
+    color: whitesmoke;
+    animation-duration: 2s;
+}
+
+#project:hover, #schedule:hover, #quiz:hover, #github:hover, #resume:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+    
+}
+
+.fi-xnluxl-calendar {
+    font-size: 40px;
+}
