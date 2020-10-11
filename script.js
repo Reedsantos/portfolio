@@ -2,9 +2,14 @@ const showTime = $('.showTime');
 const inspire = $('.inspire');
 const project = $('#project')
 const schedule = $('#schedule')
-const quiz = $('#quiz')
 const github = $('#github')
 const resume = $('#resume')
+const sobriety = $('#sobriety')
+const employee = $('#employee')
+const readMe = $('#readMe')
+const burger = $('#burger')
+
+
 
 
 $(document).ready(function () {
@@ -46,6 +51,11 @@ $(document).ready(function () {
     }, 1000);
 })
 
+
+$("#sobriety").click(function(){
+    window.location = "https://ascent-sobriety.herokuapp.com/";
+})
+
 $("#project").click(function(){
     window.location = "https://hilbug.github.io/adults-pet-finder/";
 })
@@ -53,9 +63,19 @@ $("#project").click(function(){
 $("#schedule").click(function(){
     window.location = "https://reedsantos.github.io/Javascript-Schedule-App/";
 })
-$("#quiz").click(function(){
-    window.location = "https://reedsantos.github.io/Geo-quiz/";
+
+$("#employee").click(function(){
+    window.location = "https://github.com/Reedsantos/Best-Buy-Employee-Tracker";
 })
+
+$("#readMe").click(function(){
+    window.location = "https://github.com/Reedsantos/Super-Duper-Readme-Generator";
+})
+
+$("#burger").click(function(){
+    window.location = "https://github.com/Reedsantos/Wcdonalds-Burger-App";
+})
+
 $("#github").click(function(){
     window.location = "https://github.com/Reedsantos/";
 })
