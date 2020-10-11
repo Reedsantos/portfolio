@@ -49,7 +49,8 @@ body {
     
 }
 
-.fi-xnsuxl-github, .fi-xnsuxl-left-align-solid, .fi-xnluxl-home, .fi-xnluxl-envelope
+.fi-xnsuxl-github, .fi-xnsuxl-left-align-solid, .fi-xnluxl-home, .fi-xnluxl-envelope, 
+.fi-cnsuxl-user-tie-circle, .fi-cnpuxl-glass-wine-solid, .fi-xnsuxl-edit-solid, .fi-xnsuxl-three-bars-solid
 {
     font-size:40px;
 }
@@ -80,17 +81,17 @@ body {
     animation-duration: 2s;
 }
 
-#project, #schedule, #quiz, #github, #resume{
+#project, #schedule, #github, #resume, #sobriety, #employee, #readMe, #burger{
     background-color: transparent;
     border-color: transparent;
     color: whitesmoke;
     animation-duration: 2s;
 }
 
-#project:hover, #schedule:hover, #quiz:hover, #github:hover, #resume:hover{
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); 
+#project:hover, #schedule:hover, #github:hover, #resume:hover, #sobriety:hover, #employee:hover, #readMe:hover, #burger:hover{
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3); 
     
 }
 
